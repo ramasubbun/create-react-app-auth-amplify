@@ -13,7 +13,7 @@ class App extends Component {
     <h1 align="center">IPApps Admin Workflow</h1>
     <div className="div-page">
         <label for="bktNameLbl" className="hidden">S3 Temp Folder Name</label>
-        <input type="text" id="BucketNameId" className="hidden" name="BucketName" placeholder="ctp-ipapps-file-upload" value="ctp-ipapps-file-upload" readonly>
+        <input type="text" id="BucketNameId" className="hidden" name="BucketName" placeholder="ctp-ipapps-file-upload" value="ctp-ipapps-file-upload" readonly/>
         <label for="bktObjectLbl">File Name - "Vendor+Ver.zip" - For e.x., "densov1.1.zip"</label>
         <input type="text" id="ObjectNameId" name="ObjectName" placeholder="*.zip" value=""/>
         <input style='display:none;' type="text" id="FileNameId" name="FileNameId"/>
